@@ -1,17 +1,31 @@
-# 📚 Sistema de Biblioteca - Flask + SQLite
-Sistema web simples para gerenciamento de uma biblioteca escolar. Permite cadastro de usuários, controle de livros disponíveis e registro de empréstimos com data prevista de devolução.
+# Sistema de Biblioteca 📚
 
-## Funcionalidades
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![Flask](https://img.shields.io/badge/flask-v2.0-green)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-- Cadastro de usuários com autenticação
-- Adição e edição de livros
-- Registro e controle de empréstimos
-- Devolução de livros e atualização de status
-- Interface web com Flask
+## Descrição
+
+Sistema web para gerenciamento de biblioteca desenvolvido em Python com Flask e SQLite. Permite cadastro e login de usuários (com permissão diferenciada para admin e alunos), cadastro de livros, empréstimos controlados e devoluções. Interface simples, funcional e segura.
 
 ## Tecnologias
 
-- Python 3
+- Python 3.8+
 - Flask
 - SQLite
-- HTML/CSS básico
+- HTML/CSS (templates básicos)
+
+## Funcionalidades
+
+- Cadastro de usuários (somente admins podem cadastrar)
+- Login e logout
+- Cadastro, listagem e controle de livros
+- Empréstimos com limite de 3 livros por usuário
+- Controle de devoluções e disponibilidade de livros
+
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/MarioAlex1/Sistema-de-Biblioteca.git
+   cd Sistema-de-Biblioteca
