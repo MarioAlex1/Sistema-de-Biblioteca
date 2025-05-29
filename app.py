@@ -1470,7 +1470,7 @@ if __name__ == "__main__":
     print("=" * 50)
     print("🚀 SISTEMA DE BIBLIOTECA INICIADO!")
     print("=" * 50)
-    print("📍 Acesse: http://0.0.0.0:5000")
+    print("📍 Acesse: http://localhost:5000")
     print("📚 Sistema pronto para uso!")
     print("👨‍💼 Admin padrão: admin / admin123")
     print("👨‍🎓 Alunos de teste: matrículas 2024001 a 2024005")
